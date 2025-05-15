@@ -14,7 +14,7 @@ public:
 };
 
 // --- Логгирование в консоль ---
-class ConsoleLogger : public ILogger {
+class ConsoleLogger : public ILogger  {
 public:
     void Log(const std::string& message) override {
         std::cout << "[Console] " << message << std::endl;
